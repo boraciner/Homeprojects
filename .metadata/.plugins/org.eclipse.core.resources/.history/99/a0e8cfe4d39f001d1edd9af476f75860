@@ -1,0 +1,5 @@
+package com.myhomeprojects.microservices.limitsservice.configuration;
+
+public class Configuration {
+
+}

@@ -1,0 +1,8 @@
+package com.myhomeprojects.microservices.limitsservice.configuration;
+@org.springframework.context.annotation.Configuration
+public class Configuration {
+	
+	private int minimum;
+	private int maximum;
+
+}

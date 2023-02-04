@@ -1,0 +1,5 @@
+package com.myhomeprojects.microservices.currencyexchangeservice;
+
+public class CurrencyExchangeRepository extends JpaRepository{
+
+}

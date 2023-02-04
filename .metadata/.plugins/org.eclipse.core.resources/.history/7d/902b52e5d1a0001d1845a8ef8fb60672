@@ -1,0 +1,3 @@
+limits-service.minimum=3
+limits-service.maximum=997
+spring.config.import=optional:configserver:http://localhost:8888

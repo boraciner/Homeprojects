@@ -1,0 +1,6 @@
+package com.myhomeprojects.microservices.currencyconversionservice;
+
+
+public interface CurrencyExchangeProxy {
+
+}

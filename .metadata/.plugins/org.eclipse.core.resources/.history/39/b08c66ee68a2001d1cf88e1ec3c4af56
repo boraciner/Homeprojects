@@ -1,0 +1,7 @@
+package com.myhomeprojects.microservices.currencyexchangeservice;
+
+import org.springframework.data.jpa.repository.support.SimpleJpaRepository;
+
+public class CurrencyExchangeRepository extends SimpleJpaRepository<CurrencyExchange>{
+
+}
