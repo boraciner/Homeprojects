@@ -1,5 +1,0 @@
-package com.myhomeprojects.microservices.limitsservice.controller;
-
-public class LimitsController {
-
-}

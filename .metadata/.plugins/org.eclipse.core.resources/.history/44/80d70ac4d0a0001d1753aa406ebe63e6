@@ -1,3 +1,0 @@
-spring.application.name=spring-cloud-config-server
-
-spring.cloud.config.server.git.uri=file://c/Users/bc/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/Homeprojects/git-localconfig-repo

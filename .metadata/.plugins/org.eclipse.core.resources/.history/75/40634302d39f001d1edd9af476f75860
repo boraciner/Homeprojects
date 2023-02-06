@@ -1,6 +1,0 @@
-package com.myhomeprojects.microservices.limitsservice.bean;
-
-@Bean
-public class Limits {
-
-}

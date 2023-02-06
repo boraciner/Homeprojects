@@ -1,8 +1,0 @@
-package com.myhomeprojects.microservices.limitsservice.bean;
-
-
-
-public class Limits {
-	private int minimum;
-	private int maximum;
-}
