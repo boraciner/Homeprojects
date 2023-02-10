@@ -37,4 +37,5 @@
     <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
     <fullyQualifiedTypeName name="com.myhomeprojects.microservices.currencyexchangeservice.CircuitBreakerController"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker"/>
 </qualifiedTypeNameHistroy>
