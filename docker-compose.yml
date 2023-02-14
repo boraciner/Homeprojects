@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  currency-exchange:
+    image: docker.io/boraciner/mmv2-currency-exchange-service:0.0.1-SNAPSHOT
+    mem_limit: 700m
+    ports:
+      - "8001:8001"
+    networks:
+      - currency-network
+
+
+networks:
+  currency-network:
