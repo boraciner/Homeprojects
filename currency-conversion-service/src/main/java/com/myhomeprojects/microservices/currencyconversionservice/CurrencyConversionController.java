@@ -24,7 +24,7 @@ public class CurrencyConversionController {
 		uriVariables.put("from", from);
 		uriVariables.put("to", to);
 		
-		ResponseEntity<CurrencyConversion> responseEntity = new RestTemplate().getForEntity("http://localhost:8000/currency-exchange/from/{from}/to/{to}",CurrencyConversion.class,uriVariables );
+		ResponseEntity<CurrencyConversion> responseEntity = new RestTemplate().getForEntity("http://currency-exchange:8001/currency-exchange/from/{from}/to/{to}",CurrencyConversion.class,uriVariables );
 		CurrencyConversion currencyConversion = responseEntity.getBody();
 		
 		
