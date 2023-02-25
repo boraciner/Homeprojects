@@ -5,4 +5,24 @@ spring-boot:build-image -DskipTests
 
 http://localhost:8100/currency-conversion-feign/from/USD/to/INR/quantity/10
 http://localhost:8765/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+
+//----------------------Google Kubernetes Engine--------------------------
+http://34.28.93.101:8000/currency-exchange/from/USD/to/INR
+http://35.232.58.86:8100/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+I created services named ==>
+currency-exchange
+currency-conversion
+
+env variables automatically created ==>
+CURRENCY_EXCHANGE_SERVICE_HOST
+CURRENCY_CONVERSION_SERVICE_HOST
+//------------------------------------------------------------------------
+
+
+
+
+
+
 new linux machine
