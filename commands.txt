@@ -20,9 +20,35 @@ CURRENCY_EXCHANGE_SERVICE_HOST
 CURRENCY_CONVERSION_SERVICE_HOST
 //------------------------------------------------------------------------
 
+//History 
+271  kubectl --version
+  272  kubectl version
+  273  kubectl create deployment currency-exchange --image=boraciner/mmv2-currency-exchange-service:0.0.11-SNAPSHOT
+  274  kubectl expose deployment currency-exchange --type=LoadBalancer --port=8000
+  275  kubectl get svc
+  276  kubectl get service
+  277  kubectl get pods
+  278  kubectl get rs
+  279  kubectl get replicaset
+  280  kubectl get service
+  281  kubectl create deployment currency-conversion --image=boraciner/mmv2-currency-conversion-service:0.0.11-SNAPSHOT
+  282  kubectl expose deployment currency-conversion --type=LoadBalancer --port=8100
+  283  kubectl get service
+  284  curl http://35.232.58.86:8100/currency-conversion-feign/from/USD/to/INR/quantity/10
+  285  kubectl get pods
+  286  cd ..
+  287  cd Homeprojects/kubernetes-services/
+  288  ls
+  289  cd currency-exchange-service/
+  290  ls
+  291  rm service.yaml 
+  292  ls
+  293  kubectl diff -f deployment.yaml 
+  294  kubectl apply -f deployment.yaml 
+  295  kubectl get services
+  296  kubectl get pods
+  297  kubectl get pods --watch
+  298  kubectl get pods
+  299  kubectl get pods --watch
+  300  kubectl get pod
 
-
-
-
-
-new linux machine
